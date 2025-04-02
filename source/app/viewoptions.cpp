@@ -86,11 +86,18 @@ bool ViewOptions::setZoom(int percent)
     return myZoom == percent;
 }
 
+void  ViewOptions::setDrawStaffRectangleBool (bool new_value)
+{
+    myDrawStaffRectangleBool = new_value;
+}
+
 bool ViewOptions::increaseZoom()
 {
     int nextZoom = *std::upper_bound(ZOOM_LEVELS.begin(), ZOOM_LEVELS.end() - 1, getZoom());
     return setZoom(nextZoom);
 }
+
+
 
 bool ViewOptions::decreaseZoom()
 {

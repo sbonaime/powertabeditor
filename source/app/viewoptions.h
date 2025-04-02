@@ -14,7 +14,7 @@
   * You should have received a copy of the GNU General Public License
   * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-  
+
 #ifndef APP_VIEWOPTIONS_H
 #define APP_VIEWOPTIONS_H
 
@@ -31,6 +31,7 @@ class ViewOptions
 public:
     static constexpr int MIN_ZOOM = 25;
     static constexpr int MAX_ZOOM = 300;
+
     static constexpr std::array<int, 13> ZOOM_LEVELS = { 25, 50, 70, 80, 90, 100, 110, 125, 150, 175, 200, 250, 300 };
 
 public:
@@ -61,12 +62,18 @@ public:
     /// Increases to the previous possible zoom level.
     bool decreaseZoom();
 
+    /// Get the bool for drawing or not rectangle around the staff
+    bool getDrawStaffRectangleBool() const { return myDrawStaffRectangleBool; }
+    /// Set the bool for drawing or not rectangle around the staff
+    void setDrawStaffRectangleBool(bool new_value);
+
 private:
     /// The view filter is either a predefined filter from the score, or a
     /// temporary filter defined in the UI (e.g. a specific player).
     std::optional<int> mySelectedFilter;
     std::optional<int> myPlayerFilterIndex;
     ViewFilter myPlayerFilter;
+    bool myDrawStaffRectangleBool;
 
     int myZoom;
 };

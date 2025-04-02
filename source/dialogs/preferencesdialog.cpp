@@ -14,7 +14,7 @@
   * You should have received a copy of the GNU General Public License
   * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-  
+
 #include "preferencesdialog.h"
 #include "ui_preferencesdialog.h"
 
@@ -134,6 +134,9 @@ void PreferencesDialog::loadCurrentSettings()
     ui->openInNewWindowCheckBox->setChecked(
         settings->get(Settings::OpenFilesInNewWindow));
 
+    ui->drawStaffRectangleCheckBox->setChecked(
+        settings->get(Settings::DrawStaffRectangle));
+
     ui->systemSpacingSpinBox->setValue(
       settings->get(Settings::SystemSpacing));
 
@@ -197,6 +200,9 @@ void PreferencesDialog::accept()
 
     settings->set(Settings::OpenFilesInNewWindow,
                   ui->openInNewWindowCheckBox->isChecked());
+
+    settings->set(Settings::DrawStaffRectangle,
+                    ui->drawStaffRectangleCheckBox->isChecked());
 
     settings->set(Settings::SystemSpacing,
                   ui->systemSpacingSpinBox->value());

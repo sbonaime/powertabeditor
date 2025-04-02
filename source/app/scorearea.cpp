@@ -14,7 +14,7 @@
   * You should have received a copy of the GNU General Public License
   * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-  
+
 #include "scorearea.h"
 
 #include <app/documentmanager.h>
@@ -32,6 +32,7 @@
 #include <QPrinter>
 #include <QScrollBar>
 #include <score/score.h>
+#include <iostream>
 
 void ScoreArea::Scene::dragEnterEvent(QGraphicsSceneDragDropEvent *event)
 {
@@ -65,11 +66,14 @@ ScoreArea::ScoreArea(SettingsManager &settings_manager, QWidget *parent)
     // changes.
     loadTheme(settings_manager, /* redraw */ false);
     loadSystemSpacing(settings_manager, false);
+    loadDrawStaffRectangle(settings_manager, false);
+
     mySettingsListener = settings_manager.subscribeToChanges(
         [&]()
         {
             loadTheme(settings_manager);
             loadSystemSpacing(settings_manager);
+            loadDrawStaffRectangle(settings_manager);
         });
 
     // Connect the click event handler to our public signals.
@@ -370,4 +374,17 @@ ScoreArea::loadSystemSpacing(const SettingsManager &settings_manager, bool redra
     mySystemSpacing = settings->get(Settings::SystemSpacing);
     if (redraw && mySystemSpacing != prev_spacing)
         this->renderDocument(*myDocument);
+}
+
+void
+ScoreArea::loadDrawStaffRectangle(const SettingsManager &settings_manager, bool redraw)
+{
+    auto settings = settings_manager.getReadHandle();
+    const bool prev_drawstaffrectangle = myDrawStaffRectangle;
+    myDrawStaffRectangle = settings->get(Settings::DrawStaffRectangle);
+    if (redraw && myDrawStaffRectangle != prev_drawstaffrectangle)
+    {
+        myDocument->getViewOptions().setDrawStaffRectangleBool(myDrawStaffRectangle);
+        this->renderDocument(*myDocument);
+    }
 }
