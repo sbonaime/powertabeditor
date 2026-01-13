@@ -65,6 +65,9 @@ public:
     /// returns the palette used by scorearea
     const QPalette *getPalette() const;
 
+    /// Check if staff rectangles should be drawn
+    bool getDrawStaffRectangle() const;
+
 signals:
     void itemClicked(ScoreItem item, const ConstScoreLocation &location,
                      ScoreItemAction action);
@@ -81,6 +84,7 @@ private:
     /// Load the user's preferred color scheme for the score.
     void loadTheme(const SettingsManager &settings_manager, bool redraw = true);
     void loadSystemSpacing(const SettingsManager &settings_manager, bool redraw = true);
+    void loadDrawStaffRectangle(const SettingsManager &settings_manager, bool redraw = true);
 
     Scene myScene;
     const Document *myDocument;
@@ -88,6 +92,7 @@ private:
     QGraphicsItem *myChordDiagramList;
     double myHeaderSize = 0;
     double mySystemSpacing = 0;
+    bool myDrawStaffRectangle = true;
     QList<QGraphicsItem *> myRenderedSystems;
     CaretPainter *myCaretPainter;
     /// The color palette from the parent widget.

@@ -83,7 +83,12 @@ QGraphicsItem *SystemRenderer::operator()(const System &system,
 {
     // Draw the bounding rectangle for the system.
     myParentSystem = new QGraphicsRectItem();
-    myParentSystem->setPen(QPen(myPalette.text(), 0.5));
+    
+    // Only draw the rectangle if the setting is enabled
+    if (myScoreArea->getDrawStaffRectangle())
+        myParentSystem->setPen(QPen(myPalette.text(), 0.5));
+    else
+        myParentSystem->setPen(Qt::NoPen);
 
     const ViewFilter *filter = myViewOptions.getFilter(myScore);
 
