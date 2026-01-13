@@ -31,7 +31,7 @@ jobs:
 
   build-osx:
 
-    runs-on: macos-13
+    runs-on: macos-15-intel
 
     steps:
     - uses: actions/checkout@v6
@@ -66,7 +66,7 @@ jobs:
     # Skip building the installer for PRs, since code signing / notarizing requires access to the repo's secrets.
     - name: Add Certificates to Keychain
       if: github.event_name != 'pull_request'
-      uses: apple-actions/import-codesign-certs@v5
+      uses: apple-actions/import-codesign-certs@v6
       with:
         p12-file-base64: ${{ secrets.MAC_CERTS_BASE64 }}
         p12-password: ${{ secrets.MAC_CERTS_PASSWORD }}
@@ -79,7 +79,7 @@ jobs:
 
     - name: Upload Installer
       if: github.event_name != 'pull_request'
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: powertabeditor-osx-${{ steps.version.outputs.VERSION_ID }}.dmg
         path: ${{runner.workspace}}/build/powertabeditor-osx.dmg
@@ -121,7 +121,7 @@ jobs:
         mv installer/windows/powertabeditor.exe installer/windows/powertabeditor-windows-${{ steps.version.outputs.VERSION_ID }}.exe
 
     - name: Upload Installer
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: powertabeditor-windows-${{ steps.version.outputs.VERSION_ID }}.exe
         path: installer/windows/powertabeditor-windows-${{ steps.version.outputs.VERSION_ID }}.exe
