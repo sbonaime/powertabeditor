@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>404</width>
+    <width>550</width>
     <height>574</height>
    </rect>
   </property>
@@ -41,9 +41,15 @@
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <item>
            <layout class="QFormLayout" name="formLayout">
-            <property name="fieldGrowthPolicy">
+<property name="fieldGrowthPolicy">
              <enum>QFormLayout::FieldGrowthPolicy::ExpandingFieldsGrow</enum>
             </property>
+              <property name="formAlignment">
+               <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+              </property>
+<property name="labelAlignment">
+              <set>Qt::AlignmentFlag::AlignLeft</set>
+             </property>
             <item row="0" column="0">
              <widget class="QLabel" name="midiOutputDeviceLabel">
               <property name="text">
@@ -103,9 +109,15 @@
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
            <layout class="QFormLayout" name="formLayout_2">
-            <property name="fieldGrowthPolicy">
+<property name="fieldGrowthPolicy">
              <enum>QFormLayout::FieldGrowthPolicy::ExpandingFieldsGrow</enum>
             </property>
+              <property name="formAlignment">
+               <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+              </property>
+<property name="labelAlignment">
+              <set>Qt::AlignmentFlag::AlignLeft</set>
+             </property>
             <item row="0" column="0">
              <widget class="QLabel" name="metronomeEnabledLabel">
               <property name="text">
@@ -165,9 +177,15 @@
          <layout class="QVBoxLayout" name="verticalLayout_5">
           <item>
            <layout class="QFormLayout" name="formLayout_4">
-            <property name="fieldGrowthPolicy">
+<property name="fieldGrowthPolicy">
              <enum>QFormLayout::FieldGrowthPolicy::ExpandingFieldsGrow</enum>
             </property>
+              <property name="formAlignment">
+               <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+              </property>
+<property name="labelAlignment">
+              <set>Qt::AlignmentFlag::AlignLeft</set>
+             </property>
             <item row="0" column="0">
              <widget class="QLabel" name="countInEnabledLabel">
               <property name="minimumSize">
@@ -178,9 +196,6 @@
               </property>
               <property name="text">
                <string>Enabled:</string>
-              </property>
-              <property name="alignment">
-               <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
               </property>
              </widget>
             </item>
@@ -227,6 +242,12 @@
          <layout class="QVBoxLayout" name="verticalLayout_7">
           <item>
            <layout class="QFormLayout" name="formLayout_5">
+              <property name="formAlignment">
+               <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+              </property>
+<property name="labelAlignment">
+              <set>Qt::AlignmentFlag::AlignLeft</set>
+             </property>
             <item row="1" column="0">
              <widget class="QLabel" name="openInNewWindowLabel">
               <property name="minimumSize">
@@ -308,6 +329,12 @@
          <layout class="QVBoxLayout" name="verticalLayout_8">
           <item>
            <layout class="QFormLayout" name="formLayout_6">
+              <property name="formAlignment">
+               <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+              </property>
+<property name="labelAlignment">
+              <set>Qt::AlignmentFlag::AlignLeft</set>
+             </property>
             <item row="0" column="0">
              <widget class="QLabel" name="enableAutoBackupLabel">
               <property name="text">
@@ -349,6 +376,12 @@
         </rect>
        </property>
        <layout class="QFormLayout" name="formLayout_3">
+              <property name="formAlignment">
+               <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+              </property>
+<property name="labelAlignment">
+          <set>Qt::AlignmentFlag::AlignLeft</set>
+         </property>
         <item row="0" column="0">
          <widget class="QLabel" name="defaultInstrumentNameLabel">
           <property name="text">
