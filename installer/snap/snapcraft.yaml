@@ -4,7 +4,7 @@
 
 name: powertabeditor
 base: core22
-version: '2.0.21'
+version: '2.0.22'
 adopt-info: powertabeditor
 
 grade: stable
@@ -15,7 +15,7 @@ parts:
     parse-info: [usr/local/share/metainfo/powertabeditor.metainfo.xml]
     plugin: cmake
     source: https://github.com/powertab/powertabeditor.git
-    source-tag: 2.0.21
+    source-tag: 2.0.22
     cmake-generator: Ninja
     cmake-parameters:
       - -DCMAKE_BUILD_TYPE=Release
@@ -28,11 +28,13 @@ parts:
       - libboost-date-time-dev
       - libboost-dev
       - libboost-iostreams-dev
+      - libcups2-dev
       - libminizip-dev
       - libpugixml-dev
       - librtmidi-dev
       - nlohmann-json3-dev
     stage-packages:
+      - cups
       - libboost-date-time1.74.0
       - libboost-iostreams1.74.0
       - libasound2

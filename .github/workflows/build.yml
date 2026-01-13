@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - name: Install Apt Dependencies
       run: sudo apt update && sudo apt install ninja-build qt6-base-dev libglx-dev libgl1-mesa-dev qt6-tools-dev qt6-tools-dev-tools qt6-l10n-tools libboost-dev libboost-date-time-dev libboost-iostreams-dev nlohmann-json3-dev libasound2-dev librtmidi-dev libpugixml-dev libminizip-dev doctest-dev
     - name: Create Build Directory
@@ -31,10 +31,10 @@ jobs:
 
   build-osx:
 
-    runs-on: macos-13
+    runs-on: macos-15-intel
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
 
     - name: Version number
       id: version
@@ -66,7 +66,7 @@ jobs:
     # Skip building the installer for PRs, since code signing / notarizing requires access to the repo's secrets.
     - name: Add Certificates to Keychain
       if: github.event_name != 'pull_request'
-      uses: apple-actions/import-codesign-certs@v3
+      uses: apple-actions/import-codesign-certs@v6
       with:
         p12-file-base64: ${{ secrets.MAC_CERTS_BASE64 }}
         p12-password: ${{ secrets.MAC_CERTS_PASSWORD }}
@@ -79,7 +79,7 @@ jobs:
 
     - name: Upload Installer
       if: github.event_name != 'pull_request'
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: powertabeditor-osx-${{ steps.version.outputs.VERSION_ID }}.dmg
         path: ${{runner.workspace}}/build/powertabeditor-osx.dmg
@@ -90,7 +90,7 @@ jobs:
     runs-on: windows-2022
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
 
     - name: Version number
       id: version
@@ -121,7 +121,7 @@ jobs:
         mv installer/windows/powertabeditor.exe installer/windows/powertabeditor-windows-${{ steps.version.outputs.VERSION_ID }}.exe
 
     - name: Upload Installer
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: powertabeditor-windows-${{ steps.version.outputs.VERSION_ID }}.exe
         path: installer/windows/powertabeditor-windows-${{ steps.version.outputs.VERSION_ID }}.exe

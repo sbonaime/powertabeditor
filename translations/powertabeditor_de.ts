@@ -14,7 +14,7 @@
     <message>
         <location filename="../source/actions/addspecialnoteproperty.h" line="93"/>
         <source>Add Artificial Harmonic</source>
-        <translation>Künstliche Harmonie hinzufügen</translation>
+        <translation>Künstliches Flageolett (Artificial Harmonic) hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -54,7 +54,7 @@
     <message>
         <location filename="../source/actions/adddirection.cpp" line="24"/>
         <source>Add Musical Direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Musikrichtung hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -62,7 +62,7 @@
     <message>
         <location filename="../source/actions/adddynamic.cpp" line="23"/>
         <source>Add Dynamic</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamik hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -78,12 +78,12 @@
     <message>
         <location filename="../source/actions/addirregulargrouping.cpp" line="27"/>
         <source>Add Triplet</source>
-        <translation type="unfinished"></translation>
+        <translation>Triole hinzufügen</translation>
     </message>
     <message>
         <location filename="../source/actions/addirregulargrouping.cpp" line="29"/>
         <source>Add Irregular Grouping</source>
-        <translation type="unfinished"></translation>
+        <translation>Irreguläre Gruppierung hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -99,7 +99,7 @@
     <message>
         <location filename="../source/actions/addmultibarrest.cpp" line="23"/>
         <source>Add Multi-Bar Rest</source>
-        <translation type="unfinished"></translation>
+        <translation>Mehrtaktpause hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -107,7 +107,7 @@
     <message>
         <location filename="../source/actions/addnote.cpp" line="24"/>
         <source>Add Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Note hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -123,7 +123,7 @@
     <message>
         <location filename="../source/actions/addplayer.cpp" line="23"/>
         <source>Add Player</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Add Player</translation>
     </message>
 </context>
 <context>
@@ -147,7 +147,7 @@
     <message>
         <location filename="../source/actions/editrehearsalsign.cpp" line="25"/>
         <source>Add Rehearsal Sign</source>
-        <translation type="unfinished"></translation>
+        <translation>Studierzeichen hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -155,7 +155,7 @@
     <message>
         <location filename="../source/actions/addrest.cpp" line="23"/>
         <source>Add Rest</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Add Rest</translation>
     </message>
 </context>
 <context>
@@ -192,7 +192,7 @@
     <message>
         <location filename="../source/actions/edittempomarker.cpp" line="27"/>
         <source>Add Tempo Marker</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Add Tempo Marker</translation>
     </message>
 </context>
 <context>
@@ -200,7 +200,7 @@
     <message>
         <location filename="../source/actions/edittextitem.cpp" line="24"/>
         <source>Add Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Text hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -216,7 +216,7 @@
     <message>
         <location filename="../source/actions/addspecialnoteproperty.h" line="78"/>
         <source>Add Trill</source>
-        <translation type="unfinished"></translation>
+        <translation>Triller hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -232,12 +232,12 @@
     <message>
         <location filename="../source/actions/adjustlinespacing.cpp" line="23"/>
         <source>Increase Line Spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Linienabstand vergrößern</translation>
     </message>
     <message>
         <location filename="../source/actions/adjustlinespacing.cpp" line="24"/>
         <source>Decrease Line Spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Linienabstand verkleinern</translation>
     </message>
 </context>
 <context>
@@ -250,7 +250,7 @@
     <message>
         <location filename="../source/dialogs/alterationofpacedialog.ui" line="34"/>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Type:</translation>
     </message>
 </context>
 <context>
@@ -297,7 +297,7 @@
     <message>
         <location filename="../source/dialogs/artificialharmonicdialog.ui" line="35"/>
         <source>Octave:</source>
-        <translation type="unfinished"></translation>
+        <translation>Oktave:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/artificialharmonicdialog.ui" line="44"/>
@@ -322,32 +322,32 @@
     <message>
         <location filename="../source/dialogs/artificialharmonicdialog.ui" line="124"/>
         <source>D</source>
-        <translation type="unfinished"></translation>
+        <translation>D</translation>
     </message>
     <message>
         <location filename="../source/dialogs/artificialharmonicdialog.ui" line="150"/>
         <source>E</source>
-        <translation type="unfinished"></translation>
+        <translation>E</translation>
     </message>
     <message>
         <location filename="../source/dialogs/artificialharmonicdialog.ui" line="176"/>
         <source>F</source>
-        <translation type="unfinished"></translation>
+        <translation>F</translation>
     </message>
     <message>
         <location filename="../source/dialogs/artificialharmonicdialog.ui" line="202"/>
         <source>G</source>
-        <translation type="unfinished"></translation>
+        <translation>G</translation>
     </message>
     <message>
         <location filename="../source/dialogs/artificialharmonicdialog.ui" line="228"/>
         <source>A</source>
-        <translation type="unfinished"></translation>
+        <translation>A</translation>
     </message>
     <message>
         <location filename="../source/dialogs/artificialharmonicdialog.ui" line="254"/>
         <source>B</source>
-        <translation type="unfinished"></translation>
+        <translation>B</translation>
     </message>
 </context>
 <context>
@@ -360,12 +360,12 @@
     <message>
         <location filename="../source/dialogs/barlinedialog.ui" line="31"/>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Type:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/barlinedialog.ui" line="41"/>
         <source>Play:</source>
-        <translation type="unfinished"></translation>
+        <translation>Abspielen:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/barlinedialog.cpp" line="35"/>
@@ -385,12 +385,12 @@
     <message>
         <location filename="../source/dialogs/barlinedialog.cpp" line="40"/>
         <source>Repeat Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Start wiederholen</translation>
     </message>
     <message>
         <location filename="../source/dialogs/barlinedialog.cpp" line="45"/>
         <source>Repeat End</source>
-        <translation type="unfinished"></translation>
+        <translation>Ende wiederholen</translation>
     </message>
     <message>
         <location filename="../source/dialogs/barlinedialog.cpp" line="46"/>
@@ -429,7 +429,7 @@
     <message>
         <location filename="../source/dialogs/benddialog.ui" line="73"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Standard</translation>
     </message>
     <message>
         <location filename="../source/dialogs/benddialog.ui" line="85"/>
@@ -444,12 +444,12 @@
     <message>
         <location filename="../source/dialogs/benddialog.ui" line="106"/>
         <source>Vertical Starting Point:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikaler Startpunkt:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/benddialog.ui" line="116"/>
         <source>Vertical Ending Point:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikaler Endpunkt:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/benddialog.cpp" line="34"/>
@@ -499,7 +499,7 @@
     <message>
         <location filename="../source/dialogs/benddialog.cpp" line="112"/>
         <source>High</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoch</translation>
     </message>
 </context>
 <context>
@@ -512,12 +512,12 @@
     <message>
         <location filename="../source/dialogs/bulkconverterdialog.ui" line="37"/>
         <source>Source Directory:</source>
-        <translation type="unfinished"></translation>
+        <translation>Quellverzeichnis:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/bulkconverterdialog.ui" line="65"/>
         <source>Destination Directory:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zielverzeichnis:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/bulkconverterdialog.ui" line="93"/>
@@ -528,15 +528,15 @@
         <location filename="../source/dialogs/bulkconverterdialog.ui" line="56"/>
         <location filename="../source/dialogs/bulkconverterdialog.ui" line="84"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
-        <location filename="../source/dialogs/bulkconverterdialog.cpp" line="172"/>
+        <location filename="../source/dialogs/bulkconverterdialog.cpp" line="170"/>
         <source>Convert</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertiere</translation>
     </message>
     <message>
-        <location filename="../source/dialogs/bulkconverterdialog.cpp" line="190"/>
+        <location filename="../source/dialogs/bulkconverterdialog.cpp" line="188"/>
         <source>Directory To Convert</source>
         <translation type="unfinished"></translation>
     </message>
@@ -582,7 +582,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chorddiagramdialog.cpp" line="48"/>
+        <location filename="../source/dialogs/chorddiagramdialog.cpp" line="47"/>
         <source>Click to edit chord name.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -597,7 +597,7 @@
     <message>
         <location filename="../source/dialogs/chordnamedialog.ui" line="36"/>
         <source>Preview:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorschau:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/chordnamedialog.ui" line="53"/>
@@ -610,79 +610,84 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="95"/>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="702"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="94"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="694"/>
         <source>C</source>
-        <translation type="unfinished"></translation>
+        <translation>C</translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="115"/>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="722"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="113"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="713"/>
         <source>D</source>
-        <translation type="unfinished"></translation>
+        <translation>D</translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="135"/>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="742"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="132"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="732"/>
         <source>E</source>
-        <translation type="unfinished"></translation>
+        <translation>E</translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="155"/>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="762"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="151"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="751"/>
         <source>F</source>
-        <translation type="unfinished"></translation>
+        <translation>F</translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="175"/>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="782"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="170"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="770"/>
         <source>G</source>
-        <translation type="unfinished"></translation>
+        <translation>G</translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="195"/>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="802"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="189"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="789"/>
         <source>A</source>
-        <translation type="unfinished"></translation>
+        <translation>A</translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="215"/>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="822"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="208"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="808"/>
         <source>B</source>
-        <translation type="unfinished"></translation>
+        <translation>B</translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="300"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="293"/>
         <source>Brackets</source>
-        <translation type="unfinished"></translation>
+        <translation>Klammern</translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="309"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="302"/>
         <source>Formula:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="316"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="309"/>
         <source>Additions:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="323"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="316"/>
         <source>Extensions:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="330"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="323"/>
         <source>Alterations:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="337"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="330"/>
         <source>Bass Note:</source>
+        <translation>Bass Note:</translation>
+    </message>
+    <message>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="892"/>
+        <source>Custom Label</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/chordnamedialog.ui" line="911"/>
+        <location filename="../source/dialogs/chordnamedialog.ui" line="907"/>
         <source>Chords in Score:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -692,12 +697,12 @@
     <message>
         <location filename="../source/dialogs/crashdialog.ui" line="23"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler</translation>
     </message>
     <message>
         <location filename="../source/dialogs/crashdialog.ui" line="37"/>
         <source>Oops! Something went wrong.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ups! Etwas ist schief gelaufen.</translation>
     </message>
     <message>
         <location filename="../source/dialogs/crashdialog.ui" line="74"/>
@@ -707,7 +712,7 @@
     <message>
         <location filename="../source/dialogs/crashdialog.ui" line="84"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
@@ -715,37 +720,37 @@
     <message>
         <location filename="../source/dialogs/directiondialog.ui" line="17"/>
         <source>Musical Direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Musikrichtung</translation>
     </message>
     <message>
         <location filename="../source/dialogs/directiondialog.ui" line="28"/>
         <source>Symbol:</source>
-        <translation type="unfinished"></translation>
+        <translation>Symbol:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/directiondialog.ui" line="38"/>
         <source>Active Symbol:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktives Symbol:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/directiondialog.ui" line="48"/>
         <source>Repeat Number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl Wiederholungen:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/directiondialog.ui" line="58"/>
         <source>Direction:</source>
-        <translation type="unfinished"></translation>
+        <translation>Richtung:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/directiondialog.ui" line="86"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinzufügen</translation>
     </message>
     <message>
         <location filename="../source/dialogs/directiondialog.ui" line="93"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Entfernen</translation>
     </message>
 </context>
 <context>
@@ -753,17 +758,17 @@
     <message>
         <location filename="../source/dialogs/dynamicdialog.ui" line="17"/>
         <source>Dynamic</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamik</translation>
     </message>
     <message>
         <location filename="../source/dialogs/dynamicdialog.ui" line="40"/>
         <source>Volume Level:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lautstärke:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/dynamicdialog.ui" line="67"/>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Aus</translation>
     </message>
 </context>
 <context>
@@ -771,7 +776,7 @@
     <message>
         <location filename="../source/actions/editbarline.cpp" line="22"/>
         <source>Edit Barline Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Taktstrichtyp bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -779,7 +784,7 @@
     <message>
         <location filename="../source/actions/editdynamic.cpp" line="25"/>
         <source>Edit Dynamic</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamik bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -787,7 +792,7 @@
     <message>
         <location filename="../source/actions/editfileinformation.cpp" line="24"/>
         <source>Edit File Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateiinformationen bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -795,7 +800,7 @@
     <message>
         <location filename="../source/actions/editinstrument.cpp" line="24"/>
         <source>Edit Instrument</source>
-        <translation type="unfinished"></translation>
+        <translation>Instrument bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -803,7 +808,7 @@
     <message>
         <location filename="../source/actions/editkeysignature.cpp" line="25"/>
         <source>Edit Key Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Tonart bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -811,12 +816,12 @@
     <message>
         <location filename="../source/actions/editnoteduration.cpp" line="23"/>
         <source>Edit Rest Duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Pausendauer bearbeiten</translation>
     </message>
     <message>
         <location filename="../source/actions/editnoteduration.cpp" line="24"/>
         <source>Edit Note Duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Notenlänge bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -832,7 +837,7 @@
     <message>
         <location filename="../source/actions/editrehearsalsign.cpp" line="48"/>
         <source>Edit Rehearsal Sign</source>
-        <translation type="unfinished"></translation>
+        <translation>Studierzeichen bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -856,7 +861,7 @@
     <message>
         <location filename="../source/actions/edittimesignature.cpp" line="25"/>
         <source>Edit Time Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Taktart bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -872,64 +877,64 @@
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="17"/>
         <source>File Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateiinformationen</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="30"/>
         <source>Song Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Song Informationen</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="51"/>
         <source>Classification:</source>
-        <translation type="unfinished"></translation>
+        <translation>Klassifizierung:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="63"/>
         <source>Song</source>
-        <translation type="unfinished"></translation>
+        <translation>Lied</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="73"/>
         <source>Lesson</source>
-        <translation type="unfinished"></translation>
+        <translation>Lektion</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="113"/>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="478"/>
         <source>Title:</source>
-        <translation type="unfinished"></translation>
+        <translation>Titel:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="123"/>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="488"/>
         <source>Subtitle:</source>
-        <translation type="unfinished"></translation>
+        <translation>Untertitel:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="133"/>
         <source>Artist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpret:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="152"/>
         <source>Release Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Veröffentlichungsinformationen</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="164"/>
         <source>Release Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Veröffentlichungstyp:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="178"/>
         <source>Public Release (Audio)</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffentliche Veröffentlichung (Audio)</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="183"/>
         <source>Public Release (Video)</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffentliche Veröffentlichung (Video)</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="188"/>
@@ -939,17 +944,17 @@
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="193"/>
         <source>Not Released</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht veröffentlicht</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="223"/>
         <source>Album Title:</source>
-        <translation type="unfinished"></translation>
+        <translation>Albumtitel:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="233"/>
         <source>Album Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Albumtyp:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="241"/>
@@ -959,22 +964,22 @@
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="246"/>
         <source>EP</source>
-        <translation type="unfinished"></translation>
+        <translation>EP</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="251"/>
         <source>Album</source>
-        <translation type="unfinished"></translation>
+        <translation>Album</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="256"/>
         <source>Double Album</source>
-        <translation type="unfinished"></translation>
+        <translation>Doppelalbum</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="261"/>
         <source>Triple Album</source>
-        <translation type="unfinished"></translation>
+        <translation>Dreifach Album</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="266"/>
@@ -984,18 +989,18 @@
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="274"/>
         <source>Year:</source>
-        <translation type="unfinished"></translation>
+        <translation>Jahr:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="281"/>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="322"/>
         <source>Live Recording:</source>
-        <translation type="unfinished"></translation>
+        <translation>Live-Aufnahme:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="312"/>
         <source>Video Title:</source>
-        <translation type="unfinished"></translation>
+        <translation>Videotitel:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="349"/>
@@ -1016,58 +1021,58 @@
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="400"/>
         <source>Traditional (Author Unknown):</source>
-        <translation type="unfinished"></translation>
+        <translation>Traditionell (Autor unbekannt):</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="410"/>
         <source>Music By:</source>
-        <translation type="unfinished"></translation>
+        <translation>Musik von:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="420"/>
         <source>Words By:</source>
-        <translation type="unfinished"></translation>
+        <translation>Worte von:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="430"/>
         <source>Arranged By:</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrangiert von:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="440"/>
         <source>Transcribed By:</source>
-        <translation type="unfinished"></translation>
+        <translation>Transkribiert von:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="450"/>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="679"/>
         <source>Copyright:</source>
-        <translation type="unfinished"></translation>
+        <translation>Urheberrecht:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="498"/>
         <source>Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>Stil:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="506"/>
         <source>Alternative</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternative</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="511"/>
         <source>Bluegrass</source>
-        <translation type="unfinished"></translation>
+        <translation>Bluegrass</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="516"/>
         <source>Blues</source>
-        <translation type="unfinished"></translation>
+        <translation>Blues</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="521"/>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>Country</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="526"/>
@@ -1137,7 +1142,7 @@
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="591"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>Rock</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="596"/>
@@ -1152,22 +1157,22 @@
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="613"/>
         <source>Beginner</source>
-        <translation type="unfinished"></translation>
+        <translation>Anfänger</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="623"/>
         <source>Intermediate</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortgeschrittener Anfänger</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="633"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortgeschritten</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="669"/>
         <source>Author:</source>
-        <translation type="unfinished"></translation>
+        <translation>Autor:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="694"/>
@@ -1182,57 +1187,57 @@
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="734"/>
         <source>Lyrics</source>
-        <translation type="unfinished"></translation>
+        <translation>Liedtexte</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="758"/>
         <source>Lyrics:</source>
-        <translation type="unfinished"></translation>
+        <translation>Liedtexte:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="774"/>
         <source>Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Eigenschaften</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="798"/>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Name:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="812"/>
         <source>Location:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ort:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="826"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Größe:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="840"/>
         <source>Created:</source>
-        <translation type="unfinished"></translation>
+        <translation>Erstellt:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="854"/>
         <source>Modified:</source>
-        <translation type="unfinished"></translation>
+        <translation>Geändert:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.ui" line="868"/>
         <source>Accessed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zugegriffen:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.cpp" line="165"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Ohne Titel</translation>
     </message>
     <message>
         <location filename="../source/dialogs/fileinformationdialog.cpp" line="177"/>
         <source>%1 bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Bytes</translation>
     </message>
 </context>
 <context>
@@ -1245,7 +1250,7 @@
     <message>
         <location filename="../source/dialogs/filterrulewidget.ui" line="42"/>
         <source>Player Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Spielername</translation>
     </message>
     <message>
         <location filename="../source/dialogs/filterrulewidget.ui" line="47"/>
@@ -1255,32 +1260,32 @@
     <message>
         <location filename="../source/dialogs/filterrulewidget.ui" line="71"/>
         <source>matches</source>
-        <translation type="unfinished"></translation>
+        <translation>Treffer</translation>
     </message>
     <message>
         <location filename="../source/dialogs/filterrulewidget.ui" line="98"/>
         <source>&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <location filename="../source/dialogs/filterrulewidget.ui" line="103"/>
         <source>&lt;=</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;=</translation>
     </message>
     <message>
         <location filename="../source/dialogs/filterrulewidget.ui" line="108"/>
         <source>=</source>
-        <translation type="unfinished"></translation>
+        <translation>=</translation>
     </message>
     <message>
         <location filename="../source/dialogs/filterrulewidget.ui" line="113"/>
         <source>&gt;=</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;=</translation>
     </message>
     <message>
         <location filename="../source/dialogs/filterrulewidget.ui" line="118"/>
         <source>&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
 </context>
 <context>
@@ -1314,12 +1319,12 @@
     <message>
         <location filename="../source/dialogs/infodialog.ui" line="14"/>
         <source>Application Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Informationen zur Anwendung</translation>
     </message>
     <message>
         <location filename="../source/dialogs/infodialog.ui" line="39"/>
         <source>&amp;Copy to Clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>In die Zwischenablage &amp;kopieren</translation>
     </message>
     <message>
         <location filename="../source/dialogs/infodialog.cpp" line="47"/>
@@ -1346,22 +1351,22 @@
     <message>
         <location filename="../source/widgets/instruments/instrumentpanelitem.ui" line="50"/>
         <source>1.</source>
-        <translation type="unfinished"></translation>
+        <translation>1.</translation>
     </message>
     <message>
         <location filename="../source/widgets/instruments/instrumentpanelitem.ui" line="57"/>
         <source>Click to change instrument name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zum Ändern des Instrumentennamens anklicken.</translation>
     </message>
     <message>
         <location filename="../source/widgets/instruments/instrumentpanelitem.ui" line="60"/>
         <source>Instrument</source>
-        <translation type="unfinished"></translation>
+        <translation>Instrument</translation>
     </message>
     <message>
         <location filename="../source/widgets/instruments/instrumentpanelitem.ui" line="117"/>
         <source>Remove Instrument</source>
-        <translation type="unfinished"></translation>
+        <translation>Instrument entfernen</translation>
     </message>
 </context>
 <context>
@@ -1374,7 +1379,7 @@
     <message>
         <location filename="../source/dialogs/irregulargroupingdialog.ui" line="28"/>
         <source>Notes Played:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gespielte Noten:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/irregulargroupingdialog.ui" line="38"/>
@@ -1392,7 +1397,7 @@
     <message>
         <location filename="../source/dialogs/keysignaturedialog.ui" line="31"/>
         <source>Visible:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sichtbar:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/keysignaturedialog.ui" line="41"/>
@@ -1430,17 +1435,17 @@
     <message>
         <location filename="../source/dialogs/keyboardsettingsdialog.ui" line="56"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurücksetzen</translation>
     </message>
     <message>
         <location filename="../source/dialogs/keyboardsettingsdialog.ui" line="63"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <location filename="../source/dialogs/keyboardsettingsdialog.cpp" line="66"/>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Befehl</translation>
     </message>
     <message>
         <location filename="../source/dialogs/keyboardsettingsdialog.cpp" line="66"/>
@@ -1473,7 +1478,7 @@
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.ui" line="31"/>
         <source>Finger:</source>
-        <translation type="unfinished"></translation>
+        <translation>Finger:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.ui" line="41"/>
@@ -1488,67 +1493,67 @@
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="31"/>
         <source>Index finger</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeigefinger</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="31"/>
         <source>Middle finger</source>
-        <translation type="unfinished"></translation>
+        <translation>Mittelfinger</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="32"/>
         <source>Ring finger</source>
-        <translation type="unfinished"></translation>
+        <translation>Ringfinger</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="32"/>
         <source>Little finger</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleiner Finger</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="32"/>
         <source>Thumb</source>
-        <translation type="unfinished"></translation>
+        <translation>Daumen</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="36"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Links</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="36"/>
         <source>Above and left</source>
-        <translation type="unfinished"></translation>
+        <translation>Oben und links</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="36"/>
         <source>Above, centered</source>
-        <translation type="unfinished"></translation>
+        <translation>Oben, zentriert</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="37"/>
         <source>Above and right</source>
-        <translation type="unfinished"></translation>
+        <translation>Oben und rechts</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="37"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechts</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="37"/>
         <source>Below and right</source>
-        <translation type="unfinished"></translation>
+        <translation>Unten und rechts</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="38"/>
         <source>Below, centered</source>
-        <translation type="unfinished"></translation>
+        <translation>Unten, zentriert</translation>
     </message>
     <message>
         <location filename="../source/dialogs/lefthandfingeringdialog.cpp" line="38"/>
         <source>Below and left</source>
-        <translation type="unfinished"></translation>
+        <translation>Unten und links</translation>
     </message>
 </context>
 <context>
@@ -1556,17 +1561,17 @@
     <message>
         <location filename="../source/audio/midiplayer.cpp" line="94"/>
         <source>Error initializing MIDI output device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Initialisieren des MIDI-Ausgabegeräts.</translation>
     </message>
     <message>
         <location filename="../source/audio/midiplayer.cpp" line="97"/>
         <source>MIDI interface: &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>MIDI-Schnittstelle: ‚%1‘</translation>
     </message>
     <message>
         <location filename="../source/audio/midiplayer.cpp" line="99"/>
         <source>MIDI port: &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>MIDI-Port: ‚%1‘</translation>
     </message>
     <message>
         <location filename="../source/audio/midiplayer.cpp" line="105"/>
@@ -1584,22 +1589,22 @@
     <message>
         <location filename="../source/widgets/mixer/mixeritem.ui" line="29"/>
         <source>Click to change player name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zum Ändern des Spielernamens anklicken.</translation>
     </message>
     <message>
         <location filename="../source/widgets/mixer/mixeritem.ui" line="53"/>
         <source>1.</source>
-        <translation type="unfinished"></translation>
+        <translation>1.</translation>
     </message>
     <message>
         <location filename="../source/widgets/mixer/mixeritem.ui" line="72"/>
         <source>Player Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Spielername</translation>
     </message>
     <message>
         <location filename="../source/widgets/mixer/mixeritem.ui" line="107"/>
         <source>Drag to adjust volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ziehen zum Anpassen der Lautstärke.</translation>
     </message>
     <message>
         <location filename="../source/widgets/mixer/mixeritem.ui" line="129"/>
@@ -1619,7 +1624,7 @@
     <message>
         <location filename="../source/widgets/mixer/mixeritem.ui" line="176"/>
         <source>Remove Player</source>
-        <translation type="unfinished"></translation>
+        <translation>Spieler entfernen</translation>
     </message>
 </context>
 <context>
@@ -1640,42 +1645,42 @@
     <message>
         <location filename="../source/widgets/toolbox/notepage.cpp" line="34"/>
         <source>Notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Noten</translation>
     </message>
     <message>
         <location filename="../source/widgets/toolbox/notepage.cpp" line="47"/>
         <source>Whole Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Ganznote</translation>
     </message>
     <message>
         <location filename="../source/widgets/toolbox/notepage.cpp" line="52"/>
         <source>Half Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Halbnote</translation>
     </message>
     <message>
         <location filename="../source/widgets/toolbox/notepage.cpp" line="57"/>
         <source>Quarter Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Viertelnote</translation>
     </message>
     <message>
         <location filename="../source/widgets/toolbox/notepage.cpp" line="62"/>
         <source>8th Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Achtelnote</translation>
     </message>
     <message>
         <location filename="../source/widgets/toolbox/notepage.cpp" line="67"/>
         <source>16th Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Sechzehntelnote</translation>
     </message>
     <message>
         <location filename="../source/widgets/toolbox/notepage.cpp" line="72"/>
         <source>32nd Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Zweiunddreißigstelnote</translation>
     </message>
     <message>
         <location filename="../source/widgets/toolbox/notepage.cpp" line="77"/>
         <source>64th Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Vierundsechzigstelnote</translation>
     </message>
     <message>
         <location filename="../source/widgets/toolbox/notepage.cpp" line="100"/>
@@ -1846,17 +1851,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/widgets/playback/playbackwidget.ui" line="103"/>
+        <location filename="../source/widgets/playback/playbackwidget.ui" line="109"/>
         <source>Adjusts the current playback speed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/widgets/playback/playbackwidget.ui" line="175"/>
+        <location filename="../source/widgets/playback/playbackwidget.ui" line="181"/>
         <source>Zoom:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/widgets/playback/playbackwidget.ui" line="220"/>
+        <location filename="../source/widgets/playback/playbackwidget.ui" line="223"/>
         <source>System: 1, Staff: 1, Position: 1, String: 1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1901,7 +1906,7 @@
     <message>
         <location filename="../source/dialogs/playerchangedialog.cpp" line="41"/>
         <source>Instrument</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Instrument</translation>
     </message>
     <message>
         <location filename="../source/dialogs/playerchangedialog.cpp" line="43"/>
@@ -1933,1014 +1938,1019 @@
 <context>
     <name>PowerTabEditor</name>
     <message>
-        <location filename="../source/app/clipboard.cpp" line="129"/>
-        <source>Cannot paste notes from a different tuning.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../source/app/powertabeditor.cpp" line="175"/>
+        <location filename="../source/app/powertabeditor.cpp" line="179"/>
         <source>Toolbox</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="248"/>
+        <location filename="../source/app/powertabeditor.cpp" line="252"/>
         <source>Open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="278"/>
-        <location filename="../source/app/powertabeditor.cpp" line="303"/>
+        <location filename="../source/app/powertabeditor.cpp" line="282"/>
+        <location filename="../source/app/powertabeditor.cpp" line="307"/>
         <source>Error Opening File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="279"/>
-        <location filename="../source/app/powertabeditor.cpp" line="400"/>
+        <location filename="../source/app/powertabeditor.cpp" line="283"/>
+        <location filename="../source/app/powertabeditor.cpp" line="405"/>
         <source>Unsupported file type.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht unterstützter Dateityp.</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="304"/>
+        <location filename="../source/app/powertabeditor.cpp" line="308"/>
         <source>Error opening file: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="337"/>
+        <location filename="../source/app/powertabeditor.cpp" line="342"/>
         <source>Close Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument schließen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="338"/>
+        <location filename="../source/app/powertabeditor.cpp" line="343"/>
         <source>The document has been modified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Dokument wurde geändert.</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="339"/>
+        <location filename="../source/app/powertabeditor.cpp" line="344"/>
         <source>Do you want to save your changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>Möchten Sie Ihre Änderungen speichern?</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="399"/>
-        <location filename="../source/app/powertabeditor.cpp" line="414"/>
+        <location filename="../source/app/powertabeditor.cpp" line="404"/>
+        <location filename="../source/app/powertabeditor.cpp" line="419"/>
         <source>Error Saving File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="415"/>
+        <location filename="../source/app/powertabeditor.cpp" line="420"/>
         <source>Error saving file: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="446"/>
+        <location filename="../source/app/powertabeditor.cpp" line="451"/>
         <source>Save As</source>
-        <translation type="unfinished"></translation>
+        <translation>Speichern unter</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="538"/>
+        <location filename="../source/app/powertabeditor.cpp" line="544"/>
         <source>Cut Notes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="554"/>
+        <location filename="../source/app/powertabeditor.cpp" line="560"/>
         <source>The clipboard does not contain any notes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Zwischenablage enthält keine Noten.</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="559"/>
+        <location filename="../source/app/powertabeditor.cpp" line="565"/>
         <source>Paste Notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Noten einfügen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="604"/>
+        <location filename="../source/app/powertabeditor.cpp" line="618"/>
         <source>Midi Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Midi Fehler</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="626"/>
+        <location filename="../source/app/powertabeditor.cpp" line="640"/>
         <source>Pause</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="662"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2303"/>
+        <location filename="../source/app/powertabeditor.cpp" line="676"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2382"/>
         <source>Play</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="885"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2466"/>
+        <location filename="../source/app/powertabeditor.cpp" line="899"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2545"/>
         <source>Remove Position</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="973"/>
+        <location filename="../source/app/powertabeditor.cpp" line="987"/>
         <source>Edit Chord Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Akkordtext bearbeiten</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1010"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1024"/>
         <source>Edit Text Item</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1058"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1072"/>
         <source>Edit Chord Diagram</source>
-        <translation type="unfinished"></translation>
+        <translation>Akkorddiagramm bearbeiten</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1156"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1170"/>
         <source>Edit Note Duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Notenwert bearbeiten</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1386"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1400"/>
         <source>Cannot add a multi-bar rest to a non-empty measure.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1399"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1413"/>
         <source>Edit Multi-Bar Rest</source>
-        <translation type="unfinished"></translation>
+        <translation>Mehrtaktpause bearbeiten</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1476"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1490"/>
         <source>Edit Tempo Marker</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1515"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1529"/>
         <source>Edit Alteration of Pace</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1562"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1576"/>
         <source>Edit Musical Direction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1600"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1614"/>
         <source>Edit Repeat Ending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1704"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1718"/>
         <source>Edit Volume Swell</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1741"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1755"/>
         <source>Edit Tremolo Bar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1841"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1855"/>
         <source>Edit Bend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1965"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1979"/>
         <source>Edit Player Change</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2192"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2264"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Unbenannt</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2205"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2277"/>
         <source>&amp;New</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2210"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2282"/>
         <source>&amp;Open...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2215"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2287"/>
         <source>&amp;Close Tab</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2220"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2292"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2226"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2298"/>
         <source>Save As...</source>
-        <translation type="unfinished"></translation>
+        <translation>Speichern unter...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2232"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2304"/>
         <source>Print...</source>
-        <translation type="unfinished"></translation>
+        <translation>Drucken...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2238"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2310"/>
         <source>Print Preview...</source>
+        <translation>Druckvorschau...</translation>
+    </message>
+    <message>
+        <location filename="../source/app/powertabeditor.cpp" line="2315"/>
+        <source>Open Backup Folder...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2242"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2321"/>
         <source>Bulk Converter...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2248"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2327"/>
         <source>Customize Shortcuts...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2254"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2333"/>
         <source>&amp;Preferences...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2260"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2339"/>
         <source>&amp;Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2265"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2344"/>
         <source>&amp;Undo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2268"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2347"/>
         <source>&amp;Redo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2272"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2351"/>
         <source>Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>Ausschneiden</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2276"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2355"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieren</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2281"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2360"/>
         <source>Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>Einfügen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2285"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2364"/>
         <source>Polish Score</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2290"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2369"/>
         <source>Polish System</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2297"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2376"/>
         <source>File Information...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateiinformationen...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2315"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2394"/>
         <source>Play From Start Of Measure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2322"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2401"/>
         <source>Stop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2326"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2405"/>
         <source>Rewind</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2331"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2410"/>
         <source>Metronome</source>
-        <translation type="unfinished"></translation>
+        <translation>Metronom</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2337"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2416"/>
         <source>Count-In</source>
-        <translation type="unfinished"></translation>
+        <translation>Einzählen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2345"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2424"/>
         <source>First Section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2351"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2430"/>
         <source>Next Section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2357"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2436"/>
         <source>Previous Section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2363"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2442"/>
         <source>Last Section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2369"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2448"/>
         <source>Insert Space</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2375"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2454"/>
         <source>Remove Space</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2391"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2470"/>
         <source>Move to &amp;Start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2397"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2476"/>
         <source>&amp;Next Position</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2403"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2482"/>
         <source>&amp;Previous Position</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2409"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2488"/>
         <source>Next String</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2415"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2494"/>
         <source>Previous String</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2421"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2500"/>
         <source>Move to &amp;End</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2427"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2506"/>
         <source>Next Staff</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2433"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2512"/>
         <source>Previous Staff</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2438"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2517"/>
         <source>Next Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Nächster Takt</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2444"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2523"/>
         <source>Previous Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorheriger Takt</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2460"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2539"/>
         <source>Remove Selected Item</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2471"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2550"/>
         <source>Go To Barline...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2477"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2556"/>
         <source>Go To Rehearsal Sign...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehe zu Studierzeichen...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2484"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2563"/>
         <source>Chord Name...</source>
-        <translation type="unfinished"></translation>
+        <translation>Akkordname...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2490"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2569"/>
         <source>Text...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2498"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2577"/>
         <source>Add Chord Diagram...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2503"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2582"/>
         <source>Insert System At End</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2509"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2588"/>
         <source>Insert System Before</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2516"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2595"/>
         <source>Insert System After</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2523"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2602"/>
         <source>Remove Current System</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelles System entfernen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2531"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2610"/>
         <source>Insert Staff Before</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2537"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2616"/>
         <source>Insert Staff After</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2543"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2622"/>
         <source>Remove Current Staff</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2548"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2627"/>
         <source>Increase</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2555"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2634"/>
         <source>Decrease</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2564"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2707"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2643"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2786"/>
         <source>Whole</source>
-        <translation type="unfinished"></translation>
+        <translation>Ganze</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2567"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2709"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2646"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2788"/>
         <source>Half</source>
-        <translation type="unfinished"></translation>
+        <translation>Halbe</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2570"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2711"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2649"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2790"/>
         <source>Quarter</source>
-        <translation type="unfinished"></translation>
+        <translation>Viertel</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2573"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2713"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2652"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2792"/>
         <source>8th</source>
-        <translation type="unfinished"></translation>
+        <translation>Achtel</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2576"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2715"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2655"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2794"/>
         <source>16th</source>
-        <translation type="unfinished"></translation>
+        <translation>Sechzehntel</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2579"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2717"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2658"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2796"/>
         <source>32nd</source>
-        <translation type="unfinished"></translation>
+        <translation>Zweiunddreißigstel</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2583"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2720"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2662"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2799"/>
         <source>64th</source>
-        <translation type="unfinished"></translation>
+        <translation>Vierundsechzigstel</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2588"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2667"/>
         <source>Increase Duration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2595"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2674"/>
         <source>Decrease Duration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2602"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2681"/>
         <source>Dotted</source>
-        <translation type="unfinished"></translation>
+        <translation>Punktiert</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2606"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2685"/>
         <source>Double Dotted</source>
-        <translation type="unfinished"></translation>
+        <translation>Doppelt punktiert</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2611"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2690"/>
         <source>Add Dot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2615"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2694"/>
         <source>Remove Dot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2619"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2698"/>
         <source>Left Hand Fingering...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2628"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2707"/>
         <source>Shift String Up</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2634"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2713"/>
         <source>Shift String Down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2639"/>
-        <location filename="../source/app/powertabeditor.cpp" line="3933"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2718"/>
+        <location filename="../source/app/powertabeditor.cpp" line="4010"/>
         <source>Tied</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2644"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2723"/>
         <source>Muted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2647"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2726"/>
         <source>Ghost Note</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2651"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2730"/>
         <source>Fermata</source>
-        <translation type="unfinished"></translation>
+        <translation>Fermate</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2655"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2734"/>
         <source>Let Ring</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2659"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2738"/>
         <source>Grace Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorschlagsnote</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2664"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2743"/>
         <source>Staccato</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2668"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2747"/>
         <source>Accent</source>
-        <translation type="unfinished"></translation>
+        <translation>Akzent</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2672"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2751"/>
         <source>Heavy Accent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2678"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2757"/>
         <source>8va</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2681"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2760"/>
         <source>15ma</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2684"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2763"/>
         <source>8vb</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2687"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2766"/>
         <source>15mb</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2691"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2770"/>
         <source>Triplet</source>
-        <translation type="unfinished"></translation>
+        <translation>Triole</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2698"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2777"/>
         <source>Irregular Grouping</source>
-        <translation type="unfinished"></translation>
+        <translation>Irreguläre Gruppierung</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2724"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2803"/>
         <source>Add Rest</source>
-        <translation type="unfinished">Add Rest</translation>
+        <translation>Pause hinzufügen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2730"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2809"/>
         <source>Multi-Bar Rest...</source>
-        <translation type="unfinished"></translation>
+        <translation>Mehrtaktpause...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2738"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2817"/>
         <source>Rehearsal Sign...</source>
-        <translation type="unfinished"></translation>
+        <translation>Studierzeichen...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2745"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2824"/>
         <source>Tempo Marker...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2752"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2831"/>
         <source>Alteration of Pace...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2758"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2837"/>
         <source>Edit Key Signature...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2765"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2844"/>
         <source>Edit Time Signature...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2772"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2851"/>
         <source>Insert Standard Barline</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardtaktstrich einfügen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2779"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2858"/>
         <source>Barline...</source>
-        <translation type="unfinished"></translation>
+        <translation>Taktstrich...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2785"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2864"/>
         <source>Musical Direction...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2793"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2872"/>
         <source>Repeat Ending...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2801"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2880"/>
         <source>Dynamic...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2808"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2811"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2814"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2817"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2820"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2823"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2826"/>
-        <location filename="../source/app/powertabeditor.cpp" line="2829"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2887"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2890"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2893"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2896"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2899"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2902"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2905"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2908"/>
         <source>Dynamics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2834"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2913"/>
         <source>Volume Swell...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2841"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2920"/>
         <source>Hammer On/Pull Off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2849"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2928"/>
         <source>Hammer On From Nowhere</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2854"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2933"/>
         <source>Pull Off To Nowhere</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2858"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2937"/>
         <source>Natural Harmonic</source>
-        <translation type="unfinished"></translation>
+        <translation>Natürliches Flageolett</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2863"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2942"/>
         <source>Artificial Harmonic...</source>
-        <translation type="unfinished"></translation>
+        <translation>Künstliches Flageolett (Artificial Harmonic)...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2870"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2949"/>
         <source>Tapped Harmonic...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2879"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2958"/>
         <source>Bend...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2886"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2965"/>
         <source>Tremolo Bar...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2892"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2971"/>
         <source>Vibrato</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2897"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2976"/>
         <source>Wide Vibrato</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2902"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2981"/>
         <source>Palm Mute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2906"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2985"/>
         <source>Tremolo Picking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2910"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2989"/>
         <source>Arpeggio Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Arpeggio aufwärts</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2915"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2994"/>
         <source>Arpeggio Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Arpeggio abwärts</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2920"/>
+        <location filename="../source/app/powertabeditor.cpp" line="2999"/>
         <source>Tap</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2924"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3003"/>
         <source>Trill...</source>
-        <translation type="unfinished"></translation>
+        <translation>Triller...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2930"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3009"/>
         <source>Pickstroke Up</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2935"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3014"/>
         <source>Pickstroke Down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2941"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3020"/>
         <source>Slide Into From Above</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2946"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3025"/>
         <source>Slide Into From Below</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2951"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3030"/>
         <source>Shift Slide</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2955"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3034"/>
         <source>Legato Slide</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2961"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3040"/>
         <source>Slide Out Of Downwards</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2966"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3045"/>
         <source>Slide Out Of Upwards</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2973"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3052"/>
         <source>Add Player</source>
-        <translation type="unfinished">Add Player</translation>
+        <translation>Spieler hinzufügen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2978"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3057"/>
         <source>Add Instrument</source>
-        <translation type="unfinished">Add Instrument</translation>
+        <translation>Instrument hinzufügen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2982"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3061"/>
         <source>Player Change...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2989"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3068"/>
         <source>Tuning Dictionary...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="2996"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3075"/>
         <source>Edit View Filters...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3013"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3092"/>
         <source>Next Tab</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3019"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3098"/>
         <source>Previous Tab</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3033"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3112"/>
         <source>Zoom In</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3038"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3117"/>
         <source>Zoom Out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3044"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3123"/>
         <source>Report Bug...</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler melden...</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3050"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3129"/>
         <source>Translate This Application...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3056"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3135"/>
         <source>Application Info...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3100"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3179"/>
         <source>Mixer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3125"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3204"/>
         <source>Instruments</source>
-        <translation type="unfinished"></translation>
+        <translation>Instrumente</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3228"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3307"/>
         <source>&amp;File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3239"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3318"/>
         <source>Recent Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuletzt verwendete Dateien</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3249"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3329"/>
         <source>&amp;Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3265"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3345"/>
         <source>Play&amp;back</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3274"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3354"/>
         <source>&amp;Position</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3275"/>
-        <location filename="../source/app/powertabeditor.cpp" line="3311"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3355"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3391"/>
         <source>&amp;Section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3281"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3361"/>
         <source>&amp;Staff</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3304"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3384"/>
         <source>&amp;Text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3321"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3401"/>
         <source>&amp;Line Spacing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3326"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3406"/>
         <source>&amp;Notes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3360"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3440"/>
         <source>Octave</source>
-        <translation type="unfinished"></translation>
+        <translation>Oktave</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3370"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3450"/>
         <source>Rests</source>
-        <translation type="unfinished"></translation>
+        <translation>Pausen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3383"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3463"/>
         <source>&amp;Music Symbols</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3397"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3477"/>
         <source>&amp;Tab Symbols</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3398"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3478"/>
         <source>&amp;Hammer Ons/Pull Offs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3412"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3492"/>
         <source>Slide Into</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3419"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3499"/>
         <source>Slide Out Of</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3439"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3519"/>
         <source>&amp;Player</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3448"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3528"/>
         <source>&amp;Window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3459"/>
+        <location filename="../source/app/powertabeditor.cpp" line="3539"/>
         <source>&amp;Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="3939"/>
+        <location filename="../source/app/powertabeditor.cpp" line="4016"/>
         <source>Insert Tied Note</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="4034"/>
+        <location filename="../source/app/powertabeditor.cpp" line="4111"/>
         <source>Edit Barline</source>
-        <translation type="unfinished"></translation>
+        <translation>Taktstrich bearbeiten</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="4039"/>
+        <location filename="../source/app/powertabeditor.cpp" line="4116"/>
         <source>Insert Barline</source>
-        <translation type="unfinished">Insert Barline</translation>
+        <translation>Taktstrich einfügen</translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="4045"/>
+        <location filename="../source/app/powertabeditor.cpp" line="4122"/>
         <source>Barline</source>
-        <translation type="unfinished"></translation>
+        <translation>Taktstrich</translation>
     </message>
     <message>
-        <location filename="../source/build/main.cpp" line="201"/>
+        <location filename="../source/build/main.cpp" line="191"/>
         <source>A guitar tablature editor.</source>
+        <translation>Ein Gitarrentabulatur-Editor.</translation>
+    </message>
+    <message>
+        <location filename="../source/build/main.cpp" line="197"/>
+        <source>The files to be opened</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/build/main.cpp" line="207"/>
-        <source>The files to be opened</source>
+        <location filename="../source/app/clipboard.cpp" line="130"/>
+        <source>Cannot paste notes from a different number of strings.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2978,7 +2988,7 @@
     </message>
     <message>
         <location filename="../source/dialogs/preferencesdialog.ui" line="86"/>
-        <source>Play Notes While Editing</source>
+        <source>Play Notes While Editing:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2995,7 +3005,7 @@
     <message>
         <location filename="../source/dialogs/preferencesdialog.ui" line="122"/>
         <location filename="../source/dialogs/preferencesdialog.ui" line="193"/>
-        <location filename="../source/dialogs/preferencesdialog.ui" line="322"/>
+        <location filename="../source/dialogs/preferencesdialog.ui" line="355"/>
         <source>Preset:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3032,7 +3042,7 @@
     <message>
         <location filename="../source/dialogs/preferencesdialog.ui" line="239"/>
         <source>Open Files in New Window:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateien in neuem Fenster öffnen:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/preferencesdialog.ui" line="249"/>
@@ -3060,27 +3070,42 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/preferencesdialog.ui" line="297"/>
+        <location filename="../source/dialogs/preferencesdialog.ui" line="296"/>
+        <source>Backup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../source/dialogs/preferencesdialog.ui" line="304"/>
+        <source>Enable Auto Backup:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../source/dialogs/preferencesdialog.ui" line="314"/>
+        <source>Backup Interval (seconds):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../source/dialogs/preferencesdialog.ui" line="330"/>
         <source>Default Instrument</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/preferencesdialog.ui" line="312"/>
+        <location filename="../source/dialogs/preferencesdialog.ui" line="345"/>
         <source>Name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/preferencesdialog.ui" line="332"/>
+        <location filename="../source/dialogs/preferencesdialog.ui" line="365"/>
         <source>Tuning:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/preferencesdialog.ui" line="339"/>
+        <location filename="../source/dialogs/preferencesdialog.ui" line="372"/>
         <source>Tuning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/dialogs/preferencesdialog.cpp" line="146"/>
+        <location filename="../source/dialogs/preferencesdialog.cpp" line="148"/>
         <source>Click to adjust tuning.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3149,7 +3174,7 @@
     <message>
         <location filename="../source/actions/chorddiagram.cpp" line="44"/>
         <source>Remove Chord Diagram</source>
-        <translation type="unfinished"></translation>
+        <translation>Akkorddiagramm entfernen</translation>
     </message>
 </context>
 <context>
@@ -3181,7 +3206,7 @@
     <message>
         <location filename="../source/actions/removeinstrument.cpp" line="23"/>
         <source>Remove Instrument</source>
-        <translation type="unfinished"></translation>
+        <translation>Instrument entfernen</translation>
     </message>
 </context>
 <context>
@@ -3221,7 +3246,7 @@
     <message>
         <location filename="../source/actions/removeplayer.cpp" line="23"/>
         <source>Remove Player</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Spieler entfernen</translation>
     </message>
 </context>
 <context>
@@ -3240,7 +3265,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/app/powertabeditor.cpp" line="1355"/>
+        <location filename="../source/app/powertabeditor.cpp" line="1369"/>
         <source>Remove Multi-Bar Rest</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3303,7 +3328,7 @@
     <message>
         <location filename="../source/actions/edittextitem.cpp" line="41"/>
         <source>Remove Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Text entfernen</translation>
     </message>
 </context>
 <context>
@@ -3353,67 +3378,67 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="155"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="150"/>
         <source>Double-click to change clef type.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="197"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="192"/>
         <source>Double-click to edit the number of strings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="304"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="298"/>
         <source>Double-click to edit rehearsal sign.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="507"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="500"/>
         <source>Double-click to edit repeat endings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="638"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="634"/>
         <source>Double-click to edit tempo marker.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="745"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="741"/>
         <source>Double-click to edit chord text.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="771"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="767"/>
         <source>Double-click to edit text.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="941"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="937"/>
         <source>Double-click to edit the active players.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="1394"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="1389"/>
         <source>Double-click to edit volume swell.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="1414"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="1409"/>
         <source>Double-click to edit tremolo bar.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="1589"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="1583"/>
         <source>Double-click to edit dynamic.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="1932"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="1926"/>
         <source>Double-click to edit multi-bar rest.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../source/painters/systemrenderer.cpp" line="2185"/>
+        <location filename="../source/painters/systemrenderer.cpp" line="2178"/>
         <source>Double-click to edit bend.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3867,7 +3892,7 @@
     <message>
         <location filename="../source/dialogs/tuningdictionarydialog.ui" line="62"/>
         <source>Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbeiten...</translation>
     </message>
     <message>
         <location filename="../source/dialogs/tuningdictionarydialog.ui" line="72"/>
