@@ -14,7 +14,7 @@
   * You should have received a copy of the GNU General Public License
   * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-  
+
 #ifndef APP_SCOREAREA_H
 #define APP_SCOREAREA_H
 
@@ -65,8 +65,8 @@ public:
     /// returns the palette used by scorearea
     const QPalette *getPalette() const;
 
-    /// Check if staff rectangles should be drawn
-    bool getDrawStaffRectangle() const;
+    /// Check if system rectangles should be drawn
+    bool getDrawSystemRectangle() const;
 
 signals:
     void itemClicked(ScoreItem item, const ConstScoreLocation &location,
@@ -84,7 +84,7 @@ private:
     /// Load the user's preferred color scheme for the score.
     void loadTheme(const SettingsManager &settings_manager, bool redraw = true);
     void loadSystemSpacing(const SettingsManager &settings_manager, bool redraw = true);
-    void loadDrawStaffRectangle(const SettingsManager &settings_manager, bool redraw = true);
+    void loadDrawSystemRectangle(const SettingsManager &settings_manager, bool redraw = true);
 
     Scene myScene;
     const Document *myDocument;
@@ -92,7 +92,7 @@ private:
     QGraphicsItem *myChordDiagramList;
     double myHeaderSize = 0;
     double mySystemSpacing = 0;
-    bool myDrawStaffRectangle = true;
+    bool myDrawSystemRectangle = true;
     QList<QGraphicsItem *> myRenderedSystems;
     CaretPainter *myCaretPainter;
     /// The color palette from the parent widget.

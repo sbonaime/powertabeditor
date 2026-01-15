@@ -39,7 +39,7 @@ const Setting<std::vector<std::string>> RecentFiles("app/recent_files", {});
 const Setting<bool> OpenFilesInNewWindow("app/open_files_in_new_window",
                                          false);
 
-const Setting<bool> DrawStaffRectangle("app/draw_staff_rectangle", true);
+const Setting<bool> DrawSystemRectangle("app/draw_system_rectangle", true);
 
 const Setting<int> SystemSpacing("app/system_spacing", 50);
 

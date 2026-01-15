@@ -307,14 +307,14 @@
              <widget class="QSpinBox" name="systemSpacingSpinBox"/>
             </item>
             <item row="3" column="0">
-             <widget class="QLabel" name="drawStaffRectangleLabel">
+             <widget class="QLabel" name="drawSystemRectangleLabel">
               <property name="text">
-               <string>Draw Staff Rectangle:</string>
+               <string>Draw System Rectangle:</string>
               </property>
              </widget>
             </item>
             <item row="3" column="1">
-             <widget class="QCheckBox" name="drawStaffRectangleCheckBox"/>
+             <widget class="QCheckBox" name="drawSystemRectangleCheckBox"/>
             </item>
            </layout>
           </item>

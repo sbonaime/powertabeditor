@@ -83,9 +83,9 @@ QGraphicsItem *SystemRenderer::operator()(const System &system,
 {
     // Draw the bounding rectangle for the system.
     myParentSystem = new QGraphicsRectItem();
-    
+
     // Only draw the rectangle if the setting is enabled
-    if (myScoreArea->getDrawStaffRectangle())
+    if (myScoreArea->getDrawSystemRectangle())
         myParentSystem->setPen(QPen(myPalette.text(), 0.5));
     else
         myParentSystem->setPen(Qt::NoPen);
@@ -117,19 +117,19 @@ QGraphicsItem *SystemRenderer::operator()(const System &system,
         // the background color and the text/note color
         // getting the staff color as an average of both colors
         // ensures flexibility with different palettes
-        
+
         //rgb value for text
-        int r1, g1, b1; 
-        //rgb value for background 
+        int r1, g1, b1;
+        //rgb value for background
         int r2, g2, b2; //rgb value for background
         //ratio of the background color in the weighted average
-        double avgWeight = 0.7; 
+        double avgWeight = 0.7;
 
         myPalette.text().color().getRgb(&r1,&g1,&b1);
         myPalette.light().color().getRgb(&r2,&g2,&b2);
 
         QColor staffColor(r2*avgWeight+r1*(1-avgWeight),
-                    g2*avgWeight+g1*(1-avgWeight), 
+                    g2*avgWeight+g1*(1-avgWeight),
                     b2*avgWeight+b1*(1-avgWeight));
 
         myParentStaff = new StaffPainter(
@@ -2185,7 +2185,7 @@ SystemRenderer::createBendGroup(const ConstScoreLocation &location,
 
             const Bend &bend = note.getBend();
             const Bend::BendType type = bend.getType();
-            
+
             const double x = layout.getPositionX(i);
             const double leftX = x + 0.75 * layout.getPositionSpacing();
 
@@ -2219,7 +2219,7 @@ SystemRenderer::createBendGroup(const ConstScoreLocation &location,
             // If the bend has a release, move the final position up a bit to
             // make room for the tab note.
             const double yRelease = yEnd - 0.5 * layout.getTabLineSpacing();
-            
+
             if (type == Bend::ImmediateRelease)
                 createDashedLine(bend_group, prevX, rightX, yStart);
             else if (type == Bend::GradualRelease)
