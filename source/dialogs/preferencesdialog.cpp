@@ -134,8 +134,8 @@ void PreferencesDialog::loadCurrentSettings()
     ui->openInNewWindowCheckBox->setChecked(
         settings->get(Settings::OpenFilesInNewWindow));
 
-    ui->drawSystemRectangleCheckBox->setChecked(
-        settings->get(Settings::DrawSystemRectangle));
+    ui->drawSystemOutlineCheckBox->setChecked(
+        settings->get(Settings::DrawSystemOutline));
 
     ui->systemSpacingSpinBox->setValue(
       settings->get(Settings::SystemSpacing));
@@ -201,8 +201,8 @@ void PreferencesDialog::accept()
     settings->set(Settings::OpenFilesInNewWindow,
                   ui->openInNewWindowCheckBox->isChecked());
 
-    settings->set(Settings::DrawSystemRectangle,
-                  ui->drawSystemRectangleCheckBox->isChecked());
+    settings->set(Settings::DrawSystemOutline,
+                  ui->drawSystemOutlineCheckBox->isChecked());
 
     settings->set(Settings::SystemSpacing,
                   ui->systemSpacingSpinBox->value());

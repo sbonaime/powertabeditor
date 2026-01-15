@@ -65,8 +65,8 @@ public:
     /// returns the palette used by scorearea
     const QPalette *getPalette() const;
 
-    /// Check if system rectangles should be drawn
-    bool getDrawSystemRectangle() const;
+    /// Check if system outline should be drawn
+    bool getDrawSystemOutline() const;
 
 signals:
     void itemClicked(ScoreItem item, const ConstScoreLocation &location,
@@ -84,7 +84,7 @@ private:
     /// Load the user's preferred color scheme for the score.
     void loadTheme(const SettingsManager &settings_manager, bool redraw = true);
     void loadSystemSpacing(const SettingsManager &settings_manager, bool redraw = true);
-    void loadDrawSystemRectangle(const SettingsManager &settings_manager, bool redraw = true);
+    void loadDrawSystemOutline(const SettingsManager &settings_manager, bool redraw = true);
 
     Scene myScene;
     const Document *myDocument;
@@ -92,7 +92,7 @@ private:
     QGraphicsItem *myChordDiagramList;
     double myHeaderSize = 0;
     double mySystemSpacing = 0;
-    bool myDrawSystemRectangle = true;
+    bool myDrawSystemOutline = true;
     QList<QGraphicsItem *> myRenderedSystems;
     CaretPainter *myCaretPainter;
     /// The color palette from the parent widget.

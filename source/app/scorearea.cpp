@@ -65,13 +65,13 @@ ScoreArea::ScoreArea(SettingsManager &settings_manager, QWidget *parent)
     // changes.
     loadTheme(settings_manager, /* redraw */ false);
     loadSystemSpacing(settings_manager, false);
-    loadDrawSystemRectangle(settings_manager, false);
+    loadDrawSystemOutline(settings_manager, false);
     mySettingsListener = settings_manager.subscribeToChanges(
         [&]()
         {
             loadTheme(settings_manager);
             loadSystemSpacing(settings_manager);
-            loadDrawSystemRectangle(settings_manager);
+            loadDrawSystemOutline(settings_manager);
         });
 
     // Connect the click event handler to our public signals.
@@ -375,16 +375,16 @@ ScoreArea::loadSystemSpacing(const SettingsManager &settings_manager, bool redra
 }
 
 void
-ScoreArea::loadDrawSystemRectangle(const SettingsManager &settings_manager, bool redraw)
+ScoreArea::loadDrawSystemOutline(const SettingsManager &settings_manager, bool redraw)
 {
     auto settings = settings_manager.getReadHandle();
-    const bool prev_value = myDrawSystemRectangle;
-    myDrawSystemRectangle = settings->get(Settings::DrawSystemRectangle);
-    if (redraw && myDrawSystemRectangle != prev_value)
+    const bool prev_value = myDrawSystemOutline;
+    myDrawSystemOutline = settings->get(Settings::DrawSystemOutline);
+    if (redraw && myDrawSystemOutline != prev_value)
         this->renderDocument(*myDocument);
 }
 
-bool ScoreArea::getDrawSystemRectangle() const
+bool ScoreArea::getDrawSystemOutline() const
 {
-    return myDrawSystemRectangle;
+    return myDrawSystemOutline;
 }

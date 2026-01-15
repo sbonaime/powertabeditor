@@ -85,7 +85,7 @@ QGraphicsItem *SystemRenderer::operator()(const System &system,
     myParentSystem = new QGraphicsRectItem();
 
     // Only draw the rectangle if the setting is enabled
-    if (myScoreArea->getDrawSystemRectangle())
+    if (myScoreArea->getDrawSystemOutline())
         myParentSystem->setPen(QPen(myPalette.text(), 0.5));
     else
         myParentSystem->setPen(Qt::NoPen);
