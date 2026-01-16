@@ -14,7 +14,7 @@
   * You should have received a copy of the GNU General Public License
   * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-  
+
 #include "scorearea.h"
 
 #include <app/documentmanager.h>
@@ -65,11 +65,13 @@ ScoreArea::ScoreArea(SettingsManager &settings_manager, QWidget *parent)
     // changes.
     loadTheme(settings_manager, /* redraw */ false);
     loadSystemSpacing(settings_manager, false);
+    loadDrawSystemOutline(settings_manager, false);
     mySettingsListener = settings_manager.subscribeToChanges(
         [&]()
         {
             loadTheme(settings_manager);
             loadSystemSpacing(settings_manager);
+            loadDrawSystemOutline(settings_manager);
         });
 
     // Connect the click event handler to our public signals.
@@ -370,4 +372,19 @@ ScoreArea::loadSystemSpacing(const SettingsManager &settings_manager, bool redra
     mySystemSpacing = settings->get(Settings::SystemSpacing);
     if (redraw && mySystemSpacing != prev_spacing)
         this->renderDocument(*myDocument);
+}
+
+void
+ScoreArea::loadDrawSystemOutline(const SettingsManager &settings_manager, bool redraw)
+{
+    auto settings = settings_manager.getReadHandle();
+    const bool prev_value = myDrawSystemOutline;
+    myDrawSystemOutline = settings->get(Settings::DrawSystemOutline);
+    if (redraw && myDrawSystemOutline != prev_value)
+        this->renderDocument(*myDocument);
+}
+
+bool ScoreArea::getDrawSystemOutline() const
+{
+    return myDrawSystemOutline;
 }
