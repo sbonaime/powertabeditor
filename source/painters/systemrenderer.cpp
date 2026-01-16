@@ -1972,6 +1972,7 @@ SystemRenderer::drawRest(const Position &pos, double x,
 {
     // Position it in the middle of the staff.
     QFont font = MusicFont::getFont(28);
+    QFontMetricsF fm(font);
     double y = layout.getStdNotationLine(3);
 
     QChar symbol;
@@ -2001,6 +2002,8 @@ SystemRenderer::drawRest(const Position &pos, double x,
             break;
     }
 
+    const double rest_width = fm.horizontalAdvance(symbol);
+
     auto group = new QGraphicsItemGroup();
     auto text = new SimpleTextItem(symbol, font, TextAlignment::Baseline, QPen(myPalette.text().color()));
     text->setPos(0, y);
@@ -2008,7 +2011,7 @@ SystemRenderer::drawRest(const Position &pos, double x,
 
     // Draw dots if necessary.
     const QChar dot = MusicSymbol::Dot;
-    const double dotX = 0.4 * font.pixelSize();
+    const double dotX = rest_width + 2;
     // Position just below second line of staff.
     const double dotY = layout.getStdNotationSpace(2);
 
@@ -2028,7 +2031,8 @@ SystemRenderer::drawRest(const Position &pos, double x,
         }
     }
 
-    centerHorizontally(*group, x, x + layout.getPositionSpacing() * 1);
+    const double centeredX = x + 0.5 * (layout.getPositionSpacing() - rest_width);
+    group->setX(centeredX);
 
     group->setParentItem(myParentStaff);
 }
