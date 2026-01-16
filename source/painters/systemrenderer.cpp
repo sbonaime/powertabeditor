@@ -1215,6 +1215,7 @@ SystemRenderer::drawSymbolsAboveTabStaff(const ConstScoreLocation &location,
             break;
         case SymbolGroup::TremoloPicking:
             renderedSymbol = createTremoloPicking(layout);
+            renderedSymbol->setX(layout.getPositionX(symbolGroup.getLeftPosition()));
             break;
         case SymbolGroup::Trill:
             renderedSymbol = createTrill(layout);
@@ -1248,10 +1249,19 @@ SystemRenderer::drawSymbolsAboveTabStaff(const ConstScoreLocation &location,
         // standard notation staff.
         if (symbolGroup.getSymbolType() != SymbolGroup::Bend)
         {
-            renderedSymbol->setPos(
-                layout.getPositionX(symbolGroup.getLeftPosition()),
-                layout.getTopTabLine() - LayoutInfo::STAFF_BORDER_SPACING -
-                    symbolGroup.getHeight() * LayoutInfo::TAB_SYMBOL_SPACING);
+            const double yPos = layout.getTopTabLine() - LayoutInfo::STAFF_BORDER_SPACING -
+                    symbolGroup.getHeight() * LayoutInfo::TAB_SYMBOL_SPACING;
+
+            if (symbolGroup.getSymbolType() == SymbolGroup::TremoloPicking)
+            {
+                renderedSymbol->setY(yPos);
+            }
+            else
+            {
+                renderedSymbol->setPos(
+                    layout.getPositionX(symbolGroup.getLeftPosition()),
+                    yPos);
+            }
         }
 
         if (renderedSymbol)
@@ -1507,13 +1517,16 @@ QGraphicsItem *SystemRenderer::createTremoloPicking(const LayoutInfo& layout)
 {
     const double offset = LayoutInfo::TAB_SYMBOL_SPACING / 3;
 
+    QFontMetricsF fm(myMusicNotationFont);
+    const double symbol_width = fm.horizontalAdvance(MusicSymbol::TremoloPicking);
+
     auto group = new QGraphicsItemGroup();
 
     for (int i = 0; i < 3; i++)
     {
         auto line = new SimpleTextItem(MusicSymbol::TremoloPicking, myMusicNotationFont,
                                        TextAlignment::Baseline, QPen(myPalette.text().color()));
-        centerHorizontally(*line, 0, layout.getPositionSpacing() * 1.25);
+        line->setX(0.5 * layout.getPositionSpacing() - symbol_width / 2);
         line->setY(-7 + i * offset);
         group->addToGroup(line);
     }
