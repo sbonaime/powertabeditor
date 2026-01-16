@@ -5,8 +5,10 @@ All notable changes to this project will be documented in this file.
 
 Thanks to the following contributors who worked on this release:
 - @cameronwhite
+- @sbonaime
 
 ### Added
+- Added preference for whether the outline around each system is drawn (#550)
 
 ### Changed
 
