@@ -14,7 +14,7 @@
   * You should have received a copy of the GNU General Public License
   * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-  
+
 #ifndef APP_SCOREAREA_H
 #define APP_SCOREAREA_H
 
@@ -65,6 +65,9 @@ public:
     /// returns the palette used by scorearea
     const QPalette *getPalette() const;
 
+    /// Check if system outline should be drawn
+    bool getDrawSystemOutline() const;
+
 signals:
     void itemClicked(ScoreItem item, const ConstScoreLocation &location,
                      ScoreItemAction action);
@@ -81,6 +84,7 @@ private:
     /// Load the user's preferred color scheme for the score.
     void loadTheme(const SettingsManager &settings_manager, bool redraw = true);
     void loadSystemSpacing(const SettingsManager &settings_manager, bool redraw = true);
+    void loadDrawSystemOutline(const SettingsManager &settings_manager, bool redraw = true);
 
     Scene myScene;
     const Document *myDocument;
@@ -88,6 +92,7 @@ private:
     QGraphicsItem *myChordDiagramList;
     double myHeaderSize = 0;
     double mySystemSpacing = 0;
+    bool myDrawSystemOutline = true;
     QList<QGraphicsItem *> myRenderedSystems;
     CaretPainter *myCaretPainter;
     /// The color palette from the parent widget.
