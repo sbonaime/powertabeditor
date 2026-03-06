@@ -46,7 +46,7 @@
     <message>
         <location filename="../source/actions/addchordtext.cpp" line="24"/>
         <source>Add Chord Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Añadir Texto de Acorde</translation>
     </message>
 </context>
 <context>
@@ -62,7 +62,7 @@
     <message>
         <location filename="../source/actions/adddynamic.cpp" line="23"/>
         <source>Add Dynamic</source>
-        <translation type="unfinished"></translation>
+        <translation>Añadir Dinámica</translation>
     </message>
 </context>
 <context>
@@ -78,7 +78,7 @@
     <message>
         <location filename="../source/actions/addirregulargrouping.cpp" line="27"/>
         <source>Add Triplet</source>
-        <translation type="unfinished"></translation>
+        <translation>Añadir Triplete</translation>
     </message>
     <message>
         <location filename="../source/actions/addirregulargrouping.cpp" line="29"/>
@@ -91,7 +91,7 @@
     <message>
         <location filename="../source/actions/addspecialnoteproperty.h" line="120"/>
         <source>Add Left Hand Fingering</source>
-        <translation type="unfinished"></translation>
+        <translation>Añadir digitación mano izquierda</translation>
     </message>
 </context>
 <context>
@@ -147,7 +147,7 @@
     <message>
         <location filename="../source/actions/editrehearsalsign.cpp" line="25"/>
         <source>Add Rehearsal Sign</source>
-        <translation type="unfinished"></translation>
+        <translation>Añadir señal de ensayo</translation>
     </message>
 </context>
 <context>
@@ -208,7 +208,7 @@
     <message>
         <location filename="../source/actions/tremolobar.cpp" line="22"/>
         <source>Add Tremolo Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Añadir barra de trémolo</translation>
     </message>
 </context>
 <context>
@@ -245,7 +245,7 @@
     <message>
         <location filename="../source/dialogs/alterationofpacedialog.ui" line="17"/>
         <source>Alteration of Pace</source>
-        <translation type="unfinished"></translation>
+        <translation>Alteración del ritmo</translation>
     </message>
     <message>
         <location filename="../source/dialogs/alterationofpacedialog.ui" line="34"/>
@@ -3897,7 +3897,7 @@
     <message>
         <location filename="../source/dialogs/trilldialog.ui" line="31"/>
         <source>Current Fret:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Traste actual:</translation>
     </message>
     <message>
         <location filename="../source/dialogs/trilldialog.ui" line="45"/>
