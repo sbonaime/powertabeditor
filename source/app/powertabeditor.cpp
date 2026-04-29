@@ -2116,19 +2116,11 @@ bool PowerTabEditor::eventFilter(QObject *object, QEvent *event)
                         const Note *note = location.getNote();
                         if (note->hasProperty(Note::Muted))
                         {
-                            // Remove the muted property only from the caret note
-                            // and set the fret number as a single undoable
-                            // action.
-                            ScoreLocation singleNoteLocation(location);
-                            singleNoteLocation.setSelectionStart(
-                                location.getPositionIndex());
-                            singleNoteLocation.setSelectionEnd(
-                                location.getPositionIndex());
-
+                            // Remove the muted property and set the fret number
+                            // as a single undoable action.
                             myUndoManager->beginMacro(tr("Edit Tab Number"));
                             myUndoManager->push(
-                                new RemoveNoteProperty(singleNoteLocation,
-                                                       Note::Muted,
+                                new RemoveNoteProperty(location, Note::Muted,
                                                        tr("Muted")),
                                 location.getSystemIndex());
                             myUndoManager->push(
