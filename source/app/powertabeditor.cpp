@@ -2078,7 +2078,7 @@ bool PowerTabEditor::eventFilter(QObject *object, QEvent *event)
         QKeyEvent *keyEvent = static_cast<QKeyEvent *>(event);
         // x for a muted note
         const bool isMutedKey = (keyEvent->key() == Qt::Key_X);
-        if (keyEvent->key() >= Qt::Key_0 && keyEvent->key() <= Qt::Key_9 ||
+        if ((keyEvent->key() >= Qt::Key_0 && keyEvent->key() <= Qt::Key_9) ||
             isMutedKey)
         {
             const int number = isMutedKey ? 0 : (keyEvent->key() - Qt::Key_0);
