@@ -2155,7 +2155,6 @@ bool PowerTabEditor::eventFilter(QObject *object, QEvent *event)
                     if (mySettingsManager->getReadHandle()->get(
                             Settings::PlayNotesWhileEditing))
                     {
-                        const ScoreLocation &location = getLocation();
                         // Generate the midi data and then transfer it to the midi
                         // thread.
                         MidiFile midi_data = MidiPlayer::generateSingleNote(
