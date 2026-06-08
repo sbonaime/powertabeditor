@@ -99,8 +99,8 @@ PlaybackWidget::PlaybackWidget(const QAction &play_pause_command,
     Q_ASSERT(myVoices->buttons().length() == Staff::NUM_VOICES);
     ui->voice1Button->setChecked(true);
 
-    ui->speedSpinner->setMinimum(50);
-    ui->speedSpinner->setMaximum(125);
+    ui->speedSpinner->setMinimum(10);
+    ui->speedSpinner->setMaximum(150);
     ui->speedSpinner->setSuffix(QStringLiteral("%"));
     ui->speedSpinner->setValue(100);
 
