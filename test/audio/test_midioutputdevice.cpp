@@ -20,24 +20,30 @@
 #include <audio/midioutputdevice.h>
 #include <RtMidi.h>
 
+#if RTMIDI_VERSION_MAJOR >= 6 && RTMIDI_VERSION_MINOR >= 1
+using namespace rt::midi;
+#endif
+
 TEST_CASE("Audio/MidiOutputDevice/Basic")
 {
     MidiOutputDevice device;
+
+    // Make sure we have at least one API and can initialize the output device
+    // without errors.
+    REQUIRE(device.getApiCount() > 0);
 
     // Ensure we aren't using the dummy API that is used when RtMidi was
     // compiled without support for the appropriate platform-specific API. If
     // this is the case, MIDI output won't do anything.
     std::vector<RtMidi::Api> apis;
     RtMidi::getCompiledApi(apis);
-    for (RtMidi::Api api : apis)
-        REQUIRE(api != RtMidi::RTMIDI_DUMMY);
 
-    // Headless environments (e.g. CI runners) may have no MIDI backend
-    // available at runtime (e.g. no ALSA sequencer), so there is nothing
-    // further to check.
-    if (device.getApiCount() == 0)
+    bool has_valid_api = false;
+    for (RtMidi::Api api : apis)
     {
-        MESSAGE("No MIDI APIs available at runtime, skipping initialization check");
-        return;
+        if (api != RtMidi::RTMIDI_DUMMY)
+            has_valid_api = true;
     }
+
+    REQUIRE(has_valid_api);
 }
