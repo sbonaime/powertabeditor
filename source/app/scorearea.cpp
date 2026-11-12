@@ -195,6 +195,9 @@ void ScoreArea::redrawSystem(int index)
     myScene.addItem(newSystem);
     myRenderedSystems.insert(index, newSystem);
 
+    // Update the scene rectangle to include the new system.
+    myScene.setSceneRect(myScene.itemsBoundingRect());
+
     // Shift the following systems.
     for (int i = index + 1; i < myRenderedSystems.size(); ++i)
     {
