@@ -19,6 +19,7 @@
 #define DIALOGS_PREFERENCESDIALOG_H
 
 #include <QDialog>
+#include <app/settings.h>
 #include <score/tuning.h>
 
 namespace Ui {
@@ -41,6 +42,9 @@ public:
 
 signals:
     void toolboxIconSizePreviewChanged(int size);
+    void themePreviewChanged(ScoreTheme theme);
+    void systemSpacingPreviewChanged(double spacing);
+    void drawSystemOutlinePreviewChanged(bool draw);
 
 private slots:
     virtual void accept() override;

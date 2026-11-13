@@ -19,6 +19,7 @@
 #define APP_SCOREAREA_H
 
 #include "settingsmanager.h"
+#include "settings.h"
 
 #include <memory>
 #include <QGraphicsScene>
@@ -67,6 +68,14 @@ public:
 
     /// Check if system outline should be drawn
     bool getDrawSystemOutline() const;
+
+    /// Live-preview the score theme without persisting it (used by the
+    /// preferences dialog). The score area is re-rendered immediately.
+    void previewTheme(ScoreTheme theme);
+    /// Live-preview the system spacing without persisting it.
+    void previewSystemSpacing(double spacing);
+    /// Live-preview the system outline without persisting it.
+    void previewDrawSystemOutline(bool draw);
 
 signals:
     void itemClicked(ScoreItem item, const ConstScoreLocation &location,

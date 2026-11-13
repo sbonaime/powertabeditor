@@ -360,6 +360,11 @@ ScoreArea::loadTheme(const SettingsManager &settings_manager, bool redraw)
             myDisableRedraw = true;
 
         setPalette(*myActivePalette);
+        // Explicitly paint the view background from the active theme palette.
+        // A stylesheet on an ancestor (e.g. the main window's dock separator)
+        // disables palette propagation to this widget, so relying on setPalette
+        // alone leaves the background stale when the theme changes.
+        setBackgroundBrush(myActivePalette->color(QPalette::Base));
         myDisableRedraw = false;
     }
 }
@@ -387,4 +392,55 @@ ScoreArea::loadDrawSystemOutline(const SettingsManager &settings_manager, bool r
 bool ScoreArea::getDrawSystemOutline() const
 {
     return myDrawSystemOutline;
+}
+
+void
+ScoreArea::previewTheme(ScoreTheme theme)
+{
+    const QPalette *prev_palette = myActivePalette;
+
+    switch (theme)
+    {
+        case ScoreTheme::SystemDefault:
+            myActivePalette = myDefaultPalette;
+            break;
+        case ScoreTheme::Light:
+            myActivePalette = &myLightPalette;
+            break;
+        case ScoreTheme::Dark:
+            myActivePalette = &myDarkPalette;
+            break;
+    }
+
+    if (myActivePalette == prev_palette)
+        return;
+
+    // Redraw immediately; don't let the PaletteChange event trigger a second
+    // renderDocument while we're inside a preview.
+    myDisableRedraw = true;
+    setPalette(*myActivePalette);
+    setBackgroundBrush(myActivePalette->color(QPalette::Base));
+    myDisableRedraw = false;
+
+    this->renderDocument(*myDocument);
+}
+
+void
+ScoreArea::previewSystemSpacing(double spacing)
+{
+    if (mySystemSpacing == spacing)
+        return;
+
+    mySystemSpacing = spacing;
+    this->renderDocument(*myDocument);
+}
+
+void
+ScoreArea::previewDrawSystemOutline(bool draw)
+{
+    if (myDrawSystemOutline == draw)
+        return;
+
+    myDrawSystemOutline = draw;
+    this->renderDocument(*myDocument);
 }

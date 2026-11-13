@@ -512,13 +512,49 @@ void PowerTabEditor::editKeyboardShortcuts()
 void PowerTabEditor::editPreferences()
 {
     PreferencesDialog dialog(this, *mySettingsManager, *myTuningDictionary);
-    const int savedIconSize =
-        mySettingsManager->getReadHandle()->get(Settings::ToolboxIconSize);
+
+    // Read the saved settings into plain values and release the read lock
+    // before the modal loop below: accepting from the dialog takes a write
+    // lock, and the settings mutex is not recursive, so holding the read lock
+    // across exec() would self-deadlock.
+    int savedIconSize, savedSystemSpacing;
+    bool savedDrawSystemOutline;
+    ScoreTheme savedTheme;
+    {
+        auto settings = mySettingsManager->getReadHandle();
+        savedIconSize = settings->get(Settings::ToolboxIconSize);
+        savedTheme = settings->get(Settings::Theme);
+        savedSystemSpacing = settings->get(Settings::SystemSpacing);
+        savedDrawSystemOutline = settings->get(Settings::DrawSystemOutline);
+    }
+
     connect(&dialog, &PreferencesDialog::toolboxIconSizePreviewChanged,
             myToolBox, &ToolBox::setIconSize);
 
-    if (dialog.exec() != QDialog::Accepted && myToolBox)
-        myToolBox->setIconSize(savedIconSize);
+    ScoreArea *score_area = getScoreArea();
+    if (score_area)
+    {
+        connect(&dialog, &PreferencesDialog::themePreviewChanged,
+                score_area, &ScoreArea::previewTheme);
+        connect(&dialog, &PreferencesDialog::systemSpacingPreviewChanged,
+                score_area, &ScoreArea::previewSystemSpacing);
+        connect(&dialog, &PreferencesDialog::drawSystemOutlinePreviewChanged,
+                score_area, &ScoreArea::previewDrawSystemOutline);
+    }
+
+    if (dialog.exec() != QDialog::Accepted)
+    {
+        if (myToolBox)
+            myToolBox->setIconSize(savedIconSize);
+
+        // Restore the previewed score settings, since they weren't committed.
+        if (score_area)
+        {
+            score_area->previewTheme(savedTheme);
+            score_area->previewSystemSpacing(savedSystemSpacing);
+            score_area->previewDrawSystemOutline(savedDrawSystemOutline);
+        }
+    }
 }
 
 void PowerTabEditor::printDocument()

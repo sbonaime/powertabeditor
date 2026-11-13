@@ -82,6 +82,17 @@ PreferencesDialog::PreferencesDialog(QWidget *parent,
 
     connect(ui->toolboxIconSizeComboBox, &QComboBox::currentIndexChanged,
             this, &PreferencesDialog::toolboxIconSizePreviewChanged);
+
+    connect(ui->scoreThemeComboBox, &QComboBox::currentIndexChanged, this,
+            [this](int index) {
+                emit themePreviewChanged(static_cast<ScoreTheme>(index));
+            });
+    connect(ui->systemSpacingSpinBox, QOverload<int>::of(&QSpinBox::valueChanged),
+            this, [this](int value) {
+                emit systemSpacingPreviewChanged(value);
+            });
+    connect(ui->drawSystemOutlineCheckBox, &QCheckBox::toggled, this,
+            &PreferencesDialog::drawSystemOutlinePreviewChanged);
 }
 
 PreferencesDialog::~PreferencesDialog()
